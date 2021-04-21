@@ -211,7 +211,7 @@ module.exports = class frostybot_gui_module extends frostybot_module {
     // Brancing
 
     async content_logo(params) {
-        var logo = await this.settings.get('core', 'gui:logo', 'frostybot.png');
+        var logo = await this.settings.get('core', 'gui:logo', 'algobotmain.png');
         return logo;
     }
 
