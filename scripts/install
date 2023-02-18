@@ -16,6 +16,8 @@ echo "Cloning Frostybot Github repository..."
 sudo mkdir -p /usr/local && cd /usr/local/
 sudo git clone https://github.com/CryptoMF/frostybot-js.git frostybot-js >> /tmp/install.log 2>&1
 
+
+
 echo "Setting permissions..."
 cd /usr/local/frostybot-js
 sudo chgrp $USER -R /usr/local/frostybot-js >> /tmp/install.log 2>&1
